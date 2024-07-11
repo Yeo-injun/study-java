@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0b77286-7de8-47f5-8a5c-cb297b69f076" name="변경" comment="init Study Java repo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/study240708/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/study240708/StudyImmutability.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/study240708/immutability/ImmutableItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/study240708/immutability/ImmutableObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/study240708/variabilty/VariableItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/study240710/StudyAlgorithmProgrammers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/study240710/StudyAlgorithmProgrammers01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="f0b77286-7de8-47f5-8a5c-cb297b69f076" name="변경" comment="[ Feat ] 일자별 구현사항 Launcher로 관리">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/Solver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/study240710/AlgorithmStockPriceProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/study240710/StockPriceSolution01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/study240710/StockPriceSolution02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/study240710/StudyAlgorithmProgrammers.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -98,12 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1718548765597</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[ Feat ] 일자별 구현사항 Launcher로 관리">
+      <option name="closed" value="true" />
+      <created>1720698815486</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720698815486</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init Study Java repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="init Study Java repo" />
+    <MESSAGE value="[ Feat ] 일자별 구현사항 Launcher로 관리" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ Feat ] 일자별 구현사항 Launcher로 관리" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -119,9 +125,9 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/study240710/StudyAlgorithmProgrammers.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="15" />
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/study240710/StockPriceSolution01.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -2,6 +2,7 @@ package org.example;
 
 import org.example.study.StudyLauncher;
 import org.example.study240710.AlgorithmStockPriceProblem;
+import org.example.study240714.MulipleSetProblem;
 
 
 public class Main {
@@ -9,7 +10,7 @@ public class Main {
 //        StudyLauncher launcher = new Study2406016();
 //        StudyLauncher launcher = new StudyImmutability();
 //        StudyLauncher launcher = new StudyAlgorithmProgrammers01();
-        StudyLauncher launcher = new AlgorithmStockPriceProblem();
+        StudyLauncher launcher = new MulipleSetProblem();
         launcher.launch();
     }
 }

@@ -9,7 +9,7 @@ public class MulipleSetProblem implements StudyLauncher {
     @Override
     public void launch() {
         String[] inputs = new String[] { "FRANCE", "french" };
-        Solver<Integer, String[]> solver = new MulipleSetSolution02();
+        Solver<Integer, String[]> solver = new MulipleSetSolution03();
         int answer = solver.solve( inputs );
         System.out.println( answer );
     }

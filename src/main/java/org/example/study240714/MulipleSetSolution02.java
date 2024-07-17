@@ -13,6 +13,10 @@ public class MulipleSetSolution02 implements Solver< Integer, String[] > {
         MultiSet ms1 = new MultiSet( strings[0] );
         MultiSet ms2 = new MultiSet( strings[1] );
 
+        // 일반합집합
+        
+        // 중복집합의 합집합의 수
+        // 중복집합의 교집합의 수
         double interSectionCount = ms1.countInterSection( ms2 );
         double unionCount = ms1.countUnion( ms2 );
         if ( interSectionCount < 1 || unionCount < 1 ) {

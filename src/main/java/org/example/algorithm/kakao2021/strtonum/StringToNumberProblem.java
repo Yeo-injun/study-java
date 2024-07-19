@@ -18,7 +18,7 @@ public class StringToNumberProblem implements StudyLauncher {
                 new Target( "123", 123 ),
             })
         );
-        tester.test( new StringToNumberSolution01() );
+        tester.test( new StringToNumberSolution02() );
     }
 
     class Target implements TestTarget<String, Integer> {

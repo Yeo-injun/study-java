@@ -32,6 +32,7 @@ public class KeypadSolution01 implements Solver< String, Object[]> {
                 default: this.mainHand = "error";
             }
             Map<String, Integer> pad2 = new HashMap<>();
+            pad2.put( "2", 0 );
             pad2.put( "1", 1 );
             pad2.put( "5", 1 );
             pad2.put( "4", 2 );
@@ -41,6 +42,7 @@ public class KeypadSolution01 implements Solver< String, Object[]> {
             pad2.put( "*", 4 );
 
             Map<String, Integer> pad5 = new HashMap<>();
+            pad5.put( "5", 0 );
             pad5.put( "2", 1 );
             pad5.put( "4", 1 );
             pad5.put( "8", 1 );
@@ -50,6 +52,7 @@ public class KeypadSolution01 implements Solver< String, Object[]> {
             pad5.put( "*", 3 );
 
             Map<String, Integer> pad8 = new HashMap<>();
+            pad8.put( "8", 0 );
             pad8.put( "5", 1 );
             pad8.put( "7", 1 );
             pad8.put( "0", 1 );
@@ -59,6 +62,7 @@ public class KeypadSolution01 implements Solver< String, Object[]> {
             pad8.put( "1", 3 );
 
             Map<String, Integer> pad0 = new HashMap<>();
+            pad0.put( "0", 0 );
             pad0.put( "8", 1 );
             pad0.put( "*", 1 );
             pad0.put( "7", 2 );
@@ -75,6 +79,7 @@ public class KeypadSolution01 implements Solver< String, Object[]> {
             Map<String, Integer> rightPad5 = new HashMap<>();
             Map<String, Integer> rightPad8 = new HashMap<>();
             Map<String, Integer> rightPad0 = new HashMap<>();
+            rightPad2.put( "2", 0 );
             rightPad2.put( "3", 1 );
             rightPad2.put( "5", 1 );
             rightPad2.put( "6", 2 );
@@ -83,6 +88,7 @@ public class KeypadSolution01 implements Solver< String, Object[]> {
             rightPad2.put( "0", 3 );
             rightPad2.put( "#", 4 );
 
+            rightPad5.put( "5", 0 );
             rightPad5.put( "2", 1 );
             rightPad5.put( "6", 1 );
             rightPad5.put( "8", 1 );
@@ -91,6 +97,7 @@ public class KeypadSolution01 implements Solver< String, Object[]> {
             rightPad5.put( "0", 2 );
             rightPad5.put( "#", 3 );
 
+            rightPad8.put( "8", 0 );
             rightPad8.put( "5", 1 );
             rightPad8.put( "9", 1 );
             rightPad8.put( "0", 1 );
@@ -99,6 +106,7 @@ public class KeypadSolution01 implements Solver< String, Object[]> {
             rightPad8.put( "#", 2 );
             rightPad8.put( "3", 3 );
 
+            rightPad0.put( "0", 0 );
             rightPad0.put( "8", 1 );
             rightPad0.put( "#", 1 );
             rightPad0.put( "9", 2 );

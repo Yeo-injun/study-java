@@ -1,4 +1,4 @@
-package org.example.algorithm.kakao2019;
+package org.example.algorithm.kakao2019.tuple;
 
 import org.example.algorithm.AlgorithmTester;
 import org.example.algorithm.TestTarget;

@@ -1,4 +1,4 @@
-package org.example.algorithm.kakao2019;
+package org.example.algorithm.kakao2019.dollclaw;
 
 import org.example.algorithm.Solver;
 

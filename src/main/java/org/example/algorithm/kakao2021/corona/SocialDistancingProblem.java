@@ -9,19 +9,32 @@ import java.util.Arrays;
 
 public class SocialDistancingProblem implements StudyLauncher {
     private static final String PROBLEM_URL = "https://school.programmers.co.kr/learn/courses/30/lessons/81302#fnref1";
+
+    /**
+     * 풀이방법
+     * 1. 탐색알고리즘으로 구현해보기
+     */
     @Override
     public void launch() {
         AlgorithmTester tester = new AlgorithmTester(
             Arrays.asList( new Target[] {
                 new Target(
                     new String[][] {
-                        new String[] { "POOOP", "OXXOX", "OPXPX", "OOXOX", "POXXP" },
-                        new String[] { "POOPX", "OXPXP", "PXXXO", "OXXXO", "OOOPP" },
-                        new String[] { "PXOPX", "OXOXP", "OXPOX", "OXXOP", "PXPOX" },
-                        new String[] { "OOOXX", "XOOOX", "OOOXX", "OXOOX", "OOOOO" },
+//                        new String[] {
+//                            "PXPXP",
+//                            "OPXPX",
+//                            "OXPXP",
+//                        },
+//                        new String[] { "PO", "PO" },
+//                        new String[] { "PX", "XP" },
+//                        new String[] { "PXP", "XPX", "PXP" },
+//                        new String[] { "POOPX", "OXPXP", "PXXXO", "OXXXO", "OOOPP" },
+//                        new String[] { "PXOPX", "OXOXP", "OXPOX", "OXXOP", "PXPOX" },
+//                        new String[] { "OOOXX", "XOOOX", "OOOXX", "OXOOX", "OOOOO" },
                         new String[] { "PXPXP", "XPXPX", "PXPXP", "XPXPX", "PXPXP" },
                     },
-                    new int[] { 1,0,1,1,1 } )
+//                    new int[] { 0,1,0,1,1,1 } )
+                    new int[] { 1 } )
             })
         );
         tester.test( new SocialDistancingSolution01() );

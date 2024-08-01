@@ -63,17 +63,17 @@ public class SocialDistancingSolution01 implements Solver<int[], String[][]> {
                     if ( PERSON.equals( c ) ) {
                         people.add( new Person( new int[] { x, y } ) );
                     }
-                    y++;
+                    x++;
                 }
-                x++;
-                y=0;
+                y++;
+                x=0;
             }
             return people.toArray( Person[]::new );
         }
         
         public String getItem( int x, int y ) {
             if ( ( x > -1 && x < roomX ) && ( y > -1 && y < roomY ) ) {
-                return map[ x ][ y ];
+                return this.map[ y ][ x ];
             }
             return null;
         }
@@ -81,10 +81,6 @@ public class SocialDistancingSolution01 implements Solver<int[], String[][]> {
 
     class Person {
         private int[] loc; // x, y
-
-        private int[][] manType1;
-        private int[][] manType2;
-        private int[][] manType3;
 
         public Person( int[] xy ) {
             this.loc = xy;
@@ -95,7 +91,7 @@ public class SocialDistancingSolution01 implements Solver<int[], String[][]> {
                 new int[] { -1, 1 },
                 new int[] { -1, -1 },
                 new int[] { 1, -1 },
-                new int[] { 1, -1 },
+                new int[] { 1, 1 },
             };
             int[][] adjType1Exception = new int[][] {
                     new int[] {-1,0,0,1},
@@ -111,6 +107,7 @@ public class SocialDistancingSolution01 implements Solver<int[], String[][]> {
                     int[] e1 = new int[] { exception[0], exception[1] };
                     int[] e2 = new int[] { exception[2], exception[3] };
                     if ( existWall( room, e1 ) && existWall( room, e2 ) ) {
+                        idx1++;
                         continue;
                     }
                     return false;
@@ -146,7 +143,7 @@ public class SocialDistancingSolution01 implements Solver<int[], String[][]> {
             for ( int[] xy : adjType3 ) {
                 if ( existPerson( room, xy ) ) {
                     // 예외 확인
-                    int[] exception = type3Exceptions[idx3 ];
+                    int[] exception = type3Exceptions[ idx3 ];
                     if ( !existWall( room, exception ) ) {
                         return false;
                     }
@@ -158,11 +155,11 @@ public class SocialDistancingSolution01 implements Solver<int[], String[][]> {
         }
         
         private boolean existPerson( Room room, int[] xy ) {
-            return PERSON.equals( room.getItem( xy[0], xy[1] ) ); 
+            return PERSON.equals( room.getItem( this.loc[0] + xy[0], this.loc[1] + xy[1] ) );
         }
 
         private boolean existWall( Room room, int[] xy ) {
-            return WALL.equals( room.getItem( xy[0], xy[1] ) );
+            return WALL.equals( room.getItem( this.loc[0] + xy[0], this.loc[1] + xy[1] ) );
         }
     }
 }

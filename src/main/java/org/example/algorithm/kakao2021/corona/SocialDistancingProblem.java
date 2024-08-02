@@ -20,24 +20,17 @@ public class SocialDistancingProblem implements StudyLauncher {
             Arrays.asList( new Target[] {
                 new Target(
                     new String[][] {
-//                        new String[] {
-//                            "PXPXP",
-//                            "OPXPX",
-//                            "OXPXP",
-//                        },
-//                        new String[] { "PO", "PO" },
-//                        new String[] { "PX", "XP" },
-//                        new String[] { "PXP", "XPX", "PXP" },
-//                        new String[] { "POOPX", "OXPXP", "PXXXO", "OXXXO", "OOOPP" },
-//                        new String[] { "PXOPX", "OXOXP", "OXPOX", "OXXOP", "PXPOX" },
-//                        new String[] { "OOOXX", "XOOOX", "OOOXX", "OXOOX", "OOOOO" },
+                        new String[] { "POOOP", "OXXOX", "OPXPX", "OOXOX", "POXXP" },
+                        new String[] { "POOPX", "OXPXP", "PXXXO", "OXXXO", "OOOPP" },
+                        new String[] { "PXOPX", "OXOXP", "OXPOX", "OXXOP", "PXPOX" },
+                        new String[] { "OOOXX", "XOOOX", "OOOXX", "OXOOX", "OOOOO" },
                         new String[] { "PXPXP", "XPXPX", "PXPXP", "XPXPX", "PXPXP" },
                     },
-//                    new int[] { 0,1,0,1,1,1 } )
-                    new int[] { 1 } )
+                    new int[] { 1,0,1,1,1 }
+                )
             })
         );
-        tester.test( new SocialDistancingSolution01() );
+        tester.test( new SocialDistancingSolution02() );
     }
 
     class Target implements TestTarget<String[][], int[]> {

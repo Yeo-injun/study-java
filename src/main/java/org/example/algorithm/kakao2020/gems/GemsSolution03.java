@@ -15,8 +15,7 @@ public class GemsSolution03 implements Solver<int[], String[]> {
         // 연속되어야 한다.
         Map<String, Gem> gemsIdxMap = initGemsIdxMap( gems );
         int startIdx    = 0;
-        int lastIdx     = gems.length;
-        int lastStartIdx = lastIdx - gemsIdxMap.size();
+        int lastStartIdx = getLastStartIdx( gemsIdxMap );
         int minPart = Integer.MAX_VALUE;
         int[] answer = new int[] { 0, 0 };
         while ( startIdx <= lastStartIdx ) {
@@ -69,10 +68,19 @@ public class GemsSolution03 implements Solver<int[], String[]> {
         return idxMap;
     }
 
+    private int getLastStartIdx( Map<String, Gem> gemIndexMap ) {
+        int lastIdx = Integer.MAX_VALUE;
+        Set<String> gemNames = gemIndexMap.keySet();
+        for ( String name : gemNames ) {
+            lastIdx = Math.min( lastIdx, gemIndexMap.get( name ).getLastIdx() );
+        }
+        return lastIdx;
+    }
+
     class Gem {
         private String name;
         private Queue<Integer> queue;
-
+        private int lastAddedIdx;
         Gem( String name ) {
             this.name = name;
             this.queue = new LinkedList<>();
@@ -80,6 +88,11 @@ public class GemsSolution03 implements Solver<int[], String[]> {
 
         public void addIdx( int index ) {
             this.queue.add( index );
+            this.lastAddedIdx = index;
+        }
+
+        public int getLastIdx() {
+            return this.lastAddedIdx;
         }
 
         public int peekIdx() {

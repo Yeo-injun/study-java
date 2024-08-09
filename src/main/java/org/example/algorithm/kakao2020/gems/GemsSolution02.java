@@ -9,6 +9,7 @@ public class GemsSolution02 implements Solver<int[], String[]> {
 
     @Override
     public int[] solve( String[] gems ) {
+        List<String> gemList = Arrays.asList( gems );
         Map<String, Integer> gemsIdxMap = initGemsIdxMap( gems );
         int startIdx    = 0;
         int lastIdx     = gems.length;
@@ -28,15 +29,26 @@ public class GemsSolution02 implements Solver<int[], String[]> {
                 break;
             }
 
-            for ( int i = startIdx; i <= lastIdx-1; i++ ) {
-                String newGem = gems[ i ];
-                if ( updateTarget.remove( newGem ) ) {
-                    gemsIdxMap.put( newGem, i );
-                }
-                if ( updateTarget.isEmpty() ) {
+
+            while( !updateTarget.isEmpty() ) {
+                String gem = updateTarget.stream().findFirst().get();
+                int gemIx = gemList.indexOf( gem );
+                if ( gemIx < 0 ) {
                     break;
                 }
+                gemsIdxMap.put( gem, gemIx );
+                updateTarget.remove( gem );
+                gemList.set( gemIx, "NONE" );
             }
+//            for ( int i = startIdx; i <= lastIdx-1; i++ ) {
+//                String newGem = gems[ i ];
+//                if ( updateTarget.remove( newGem ) ) {
+//                    gemsIdxMap.put( newGem, i );
+//                }
+//                if ( updateTarget.isEmpty() ) {
+//                    break;
+//                }
+//            }
 
             if ( !updateTarget.isEmpty() ) {
                 startIdx++;

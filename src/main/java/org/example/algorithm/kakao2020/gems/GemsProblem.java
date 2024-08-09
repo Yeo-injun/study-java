@@ -36,7 +36,7 @@ public class GemsProblem implements StudyLauncher {
          * 다른 solution 풀이 방향
          * - {}을 풀고, 전체 원소별 갯수를 기준으로 정렬
          */
-        tester.test( new GemsSolution02() );
+        tester.test( new GemsSolution03() );
     }
 
 

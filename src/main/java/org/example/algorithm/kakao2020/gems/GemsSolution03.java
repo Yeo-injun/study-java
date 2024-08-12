@@ -9,27 +9,20 @@ public class GemsSolution03 implements Solver<int[], String[]> {
 
     @Override
     public int[] solve( String[] gems ) {
-
-        // 주어진 데이터에서 종류를 추려내야 한다.
-        // 가장 짧은 구간을 찾아야 한다.
-        // 연속되어야 한다.
         Map<String, Gem> gemsIdxMap = initGemsIdxMap( gems );
         int startIdx    = 0;
         int lastStartIdx = getLastStartIdx( gemsIdxMap );
         int minPart = Integer.MAX_VALUE;
         int[] answer = new int[] { 0, 0 };
         while ( startIdx <= lastStartIdx ) {
-            int baseIdx = startIdx;
-            gemsIdxMap.forEach( ( name, gem ) -> {
-                if ( gem.peekIdx() < baseIdx ) {
-                    gem.removeIdx();
-                }
-            });
-
             int minIdx = Integer.MAX_VALUE;
             int maxIdx = Integer.MIN_VALUE;
             Collection<Gem> gemValues = gemsIdxMap.values();
             for ( Gem gem : gemValues ) {
+                if ( gem.peekIdx() < startIdx ) {
+                    gem.removeIdx();
+                }
+
                 int idx = gem.peekIdx();
                 minIdx = Math.min( minIdx, idx );
                 maxIdx = Math.max( maxIdx, idx );

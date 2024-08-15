@@ -14,11 +14,22 @@ public class GemsSolution03 implements Solver<int[], String[]> {
         int lastStartIdx = getLastStartIdx( gemsIdxMap );
         int minPart = Integer.MAX_VALUE;
         int[] answer = new int[] { 0, 0 };
+        Collection<Gem> gemValues = gemsIdxMap.values();
+        if ( gemValues.size() == 1 ) {
+            return new int[] { 1, 1 };
+        }
+        // 맨 마지막 위치에 한개만 존재하는 보석이 위치할 경우
+        int lastEndIdx = getLastEndIdx( gemsIdxMap );
+        if ( gems.length == lastEndIdx + 1 ) {
+            return new int[] { lastStartIdx + 1, lastEndIdx + 1 };
+        }
         while ( startIdx <= lastStartIdx ) {
             int minIdx = Integer.MAX_VALUE;
             int maxIdx = Integer.MIN_VALUE;
-            Collection<Gem> gemValues = gemsIdxMap.values();
+            // gem의 갯수가 최대 10만개까지 가능하니 gem에 따라 순회하는 로직을 최소화시켜야 효율성 테스트를 통과할 수 있음.
             for ( Gem gem : gemValues ) {
+                // TODO 보석이 한개만 존재하게 될 경우 조기 종료 처리
+                // 보석중 유일하게 1개만 존재하는지 체크...
                 if ( gem.peekIdx() < startIdx ) {
                     gem.removeIdx();
                 }
@@ -70,6 +81,18 @@ public class GemsSolution03 implements Solver<int[], String[]> {
         return lastIdx;
     }
 
+    private int getLastEndIdx( Map<String, Gem> gemIndexMap ) {
+        int lastIdx = Integer.MIN_VALUE;
+        Set<String> gemNames = gemIndexMap.keySet();
+        for ( String name : gemNames ) {
+             Gem gem = gemIndexMap.get( name );
+            if ( gem.size() == 1 ) {
+                lastIdx = Math.max( lastIdx, gem.getLastIdx() );
+            }
+        }
+        return lastIdx;
+    }
+
     class Gem {
         private String name;
         private Queue<Integer> queue;
@@ -77,6 +100,9 @@ public class GemsSolution03 implements Solver<int[], String[]> {
         Gem( String name ) {
             this.name = name;
             this.queue = new LinkedList<>();
+        }
+        public String getName() {
+            return this.name;
         }
 
         public void addIdx( int index ) {
@@ -96,6 +122,10 @@ public class GemsSolution03 implements Solver<int[], String[]> {
             return this.queue.size() < 2
                     ? this.peekIdx()
                     : this.queue.remove();
+        }
+
+        public int size() {
+            return this.queue.size();
         }
     }
 

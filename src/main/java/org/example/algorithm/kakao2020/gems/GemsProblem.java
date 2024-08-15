@@ -14,7 +14,31 @@ public class GemsProblem implements StudyLauncher {
         AlgorithmTester tester = new AlgorithmTester(
             Arrays.asList( new Target[] {
                 new Target(
+                    new String[] { "A","C","A","A","A","B","B" },
+                    new int[] { 2,6 }
+                ),
+                new Target(
+                    new String[] {
+                        "A","B","A","A","A",
+                        "B","B","A","A","A",
+                        "A","B","A","A","A",
+                        "B","B","A","A","A",
+                        "A","B","A","A","A",
+                        "B","B","A","A","A",
+                        "A","B","A","A","A",
+                        "B","B","A","A","A",
+                        "A","B","A","A","A",
+                        "B","B","A","A","B",
+                        "C"
+                    },
+                    new int[] { 47,51 }
+                ),
+                new Target(
                     new String[] { "DIA", "RUBY", "RUBY", "DIA", "DIA", "EMERALD", "SAPPHIRE", "DIA" },
+                    new int[] {3,7}
+                ),
+                new Target(
+                    new String[] { "DIA", "RUBY", "RUBY", "DIA", "DIA", "SAPPHIRE", "EMERALD", "EMERALD", "SAPPHIRE", "DIA" },
                     new int[] {3,7}
                 ),
                 new Target(

@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0b77286-7de8-47f5-8a5c-cb297b69f076" name="변경" comment="[ Feat ] TupleProblem sol01 구현 완료">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/maxformula/MaximizeFormulaProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/maxformula/MaximizeFormulaSolution01.java" afterDir="false" />
+    <list default="true" id="f0b77286-7de8-47f5-8a5c-cb297b69f076" name="변경" comment="[ Feat ] GemsProblem Sol03 조기종료 case추가 ( 맨 마지막에 진열장내 보석이 한개인 종류가 위치했을 경우 조기 종료 조건 반영 ) 적용결과 : 효율성 테스트 12/15 Pass">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jackson/JacksonStudy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jackson/ResultMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jackson/mapping.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2019/DollClawMachineProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2019/dollclaw/DollClawMachineProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2019/DollClawMachineSolution01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2019/dollclaw/DollClawMachineSolution01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2019/TupleProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2019/tuple/TupleProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2019/TupleSolution01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2019/tuple/TupleSolution01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/gems/GemsProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/gems/GemsProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/gems/GemsSolution03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/gems/GemsSolution03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/study/StudyLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/study/StudyLauncher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,21 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,16 +66,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/dev/study-java/src/main/java/org/example/algorithm/kakao2020/maxformula&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev/study-java/src/main/java/org/example/algorithm/kakao2020/gems&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.algorithm.kakao2021.corona" />
       <recent name="org.example.algorithm.kakao2020.kepad" />
       <recent name="org.example.algorithm.kakao2021.strtonum" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\study-java\src\main\java\org\example\algorithm\kakao2020\gems" />
+      <recent name="C:\dev\study-java\src\main\java\org\example\algorithm\kakao2019\abusiveuser" />
+      <recent name="C:\dev\study-java\src\main\java\org\example\algorithm\kakao2021\corona" />
       <recent name="C:\dev\study-java\src\main\java\org\example\algorithm\kakao2020\maxformula" />
       <recent name="C:\dev\study-java\src\main\java\org\example\algorithm\kakao2019" />
     </key>
@@ -67,14 +87,22 @@
       <recent name="C:\dev\study-java\src\main\java\org\example\algorithm\kakao2020\" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.algorithm.kakao2020.gems" />
+      <recent name="org.example.algorithm.kakao2021.corona" />
       <recent name="org.example.algorithm.kakao2019" />
       <recent name="org.example.algorithm.kakao2020.kepad" />
       <recent name="org.example.algorithm.kakao2021.strtonum" />
-      <recent name="org.example.algorithm" />
-      <recent name="org.example.study240714" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle init" />
+      <command value="gradle build" />
+      <command value="gradle clean" />
+      <command value="gradle run" />
+    </option>
+  </component>
+  <component name="RunManager" selected="애플리케이션.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="study-java.main" />
@@ -88,8 +116,100 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="study-java [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="study-java [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="study-java [init]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="init" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="study-java [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.study-java [build]" />
+        <item itemvalue="Gradle.study-java [clean]" />
+        <item itemvalue="Gradle.study-java [run]" />
+        <item itemvalue="Gradle.study-java [init]" />
         <item itemvalue="애플리케이션.Main" />
       </list>
     </recent_temporary>
@@ -215,11 +335,133 @@
       <option name="project" value="LOCAL" />
       <updated>1721658364920</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="[ Feat ] MaximizeFormulaProblem sol01 구현 완료">
+      <option name="closed" value="true" />
+      <created>1722272077336</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1722272077336</updated>
+    </task>
+    <task id="LOCAL-00016" summary="[ Feat ] MaximizeFormulaProblem sol01 구현 완료">
+      <option name="closed" value="true" />
+      <created>1722272096185</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1722272096185</updated>
+    </task>
+    <task id="LOCAL-00017" summary="[ Feat ] SocialDistancingProblem sol01 구현 완료 ( 19.4 / 100.0 ) - 추가 수정요망">
+      <option name="closed" value="true" />
+      <created>1722443816039</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1722443816039</updated>
+    </task>
+    <task id="LOCAL-00018" summary="[ Feat ] SocialDistancingProblem sol01 오류 조치 완료">
+      <option name="closed" value="true" />
+      <created>1722524557796</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1722524557796</updated>
+    </task>
+    <task id="LOCAL-00019" summary="[ Feat ] SocialDistancingProblem sol02 bfs알고리즘으로 구현완료">
+      <option name="closed" value="true" />
+      <created>1722617285341</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1722617285341</updated>
+    </task>
+    <task id="LOCAL-00020" summary="[ Feat ] SocialDistancingProblem sol02 bfs알고리즘 구현과정 설명 주석 추가">
+      <option name="closed" value="true" />
+      <created>1722674047187</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1722674047187</updated>
+    </task>
+    <task id="LOCAL-00021" summary="[ Feat ] AbusiveUserProblem 추가 ( 문제풀이중 )">
+      <option name="closed" value="true" />
+      <created>1722780861855</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1722780861855</updated>
+    </task>
+    <task id="LOCAL-00022" summary="[ Feat ] GemsProblem 추가 및 정확성 테스트 All Pass / 효율성 테스트 All Fail ( 조기종료조건 추가 요망 )">
+      <option name="closed" value="true" />
+      <created>1723051078387</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1723051078387</updated>
+    </task>
+    <task id="LOCAL-00023" summary="[ Feat ] GemsProblem Sol02 추가 - 조기종료조건 추가하여 효율성 테스트 5/15 Pass">
+      <option name="closed" value="true" />
+      <created>1723120780080</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1723120780080</updated>
+    </task>
+    <task id="LOCAL-00024" summary="[ Feat ] GemsProblem Sol02 추가 - 조기종료조건 추가하여 효율성 테스트 7/15 Pass">
+      <option name="closed" value="true" />
+      <created>1723131675401</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1723131675401</updated>
+    </task>
+    <task id="LOCAL-00025" summary="[ Feat ] GemsProblem Sol03 추가 - 보석함들의 인덱스를 Queue로 관리하여 범위탐색시 반복문의 효율성 향상 도모. 적용결과 효율성 테스트 8/15 Pass">
+      <option name="closed" value="true" />
+      <created>1723225413653</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1723225413653</updated>
+    </task>
+    <task id="LOCAL-00026" summary="[ Feat ] GemsProblem Sol03 추가 - 보석 진열장 순회시 유의미한 마지막 시작지점까지만 순회하도록 수정. 적용결과 효율성 테스트 11/15 Pass">
+      <option name="closed" value="true" />
+      <created>1723226876458</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1723226876458</updated>
+    </task>
+    <task id="LOCAL-00027" summary="[ Feat ] GemsProblem Sol03 추가 - 각 보석별 인덱스 업데이트 로직과 범위지정을 위한 최대/최소 인덱스 구하는 로직을 하나의 반복문으로 처리. 적용결과 효율성 테스트 12/15 Pass">
+      <option name="closed" value="true" />
+      <created>1723431794987</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1723431794987</updated>
+    </task>
+    <task id="LOCAL-00028" summary="[ Feat ] GemsProblem Sol03 조기종료 case추가 ( 맨 마지막에 진열장내 보석이 한개인 종류가 위치했을 경우 조기 종료 조건 반영 ) 적용결과 : 효율성 테스트 12/15 Pass">
+      <option name="closed" value="true" />
+      <created>1723742042872</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1723742042872</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init Study Java repo" />
     <MESSAGE value="[ Feat ] 일자별 구현사항 Launcher로 관리" />
     <MESSAGE value="[ Feat ] 알고리즘 문제 풀이 구조화" />
     <MESSAGE value="[ Feat ] 카카오 기출문제 풀이 - 뉴스클러스터링" />
@@ -232,7 +474,20 @@
     <MESSAGE value="[ Feat ] KeypadProblem sol03 추가 keypad로 현재 위치와 눌러야 하는 숫자의 위치의 거리 계산하여 리턴" />
     <MESSAGE value="[ Feat ] DollClawMachineProblem sol01 구현 완료" />
     <MESSAGE value="[ Feat ] TupleProblem sol01 구현 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ Feat ] TupleProblem sol01 구현 완료" />
+    <MESSAGE value="[ Feat ] MaximizeFormulaProblem sol01 구현 완료" />
+    <MESSAGE value="[ Feat ] SocialDistancingProblem sol01 구현 완료 ( 19.4 / 100.0 ) - 추가 수정요망" />
+    <MESSAGE value="[ Feat ] SocialDistancingProblem sol01 오류 조치 완료" />
+    <MESSAGE value="[ Feat ] SocialDistancingProblem sol02 bfs알고리즘으로 구현완료" />
+    <MESSAGE value="[ Feat ] SocialDistancingProblem sol02 bfs알고리즘 구현과정 설명 주석 추가" />
+    <MESSAGE value="[ Feat ] AbusiveUserProblem 추가 ( 문제풀이중 )" />
+    <MESSAGE value="[ Feat ] GemsProblem 추가 및 정확성 테스트 All Pass / 효율성 테스트 All Fail ( 조기종료조건 추가 요망 )" />
+    <MESSAGE value="[ Feat ] GemsProblem Sol02 추가 - 조기종료조건 추가하여 효율성 테스트 5/15 Pass" />
+    <MESSAGE value="[ Feat ] GemsProblem Sol02 추가 - 조기종료조건 추가하여 효율성 테스트 7/15 Pass" />
+    <MESSAGE value="[ Feat ] GemsProblem Sol03 추가 - 보석함들의 인덱스를 Queue로 관리하여 범위탐색시 반복문의 효율성 향상 도모. 적용결과 효율성 테스트 8/15 Pass" />
+    <MESSAGE value="[ Feat ] GemsProblem Sol03 추가 - 보석 진열장 순회시 유의미한 마지막 시작지점까지만 순회하도록 수정. 적용결과 효율성 테스트 11/15 Pass" />
+    <MESSAGE value="[ Feat ] GemsProblem Sol03 추가 - 각 보석별 인덱스 업데이트 로직과 범위지정을 위한 최대/최소 인덱스 구하는 로직을 하나의 반복문으로 처리. 적용결과 효율성 테스트 12/15 Pass" />
+    <MESSAGE value="[ Feat ] GemsProblem Sol03 조기종료 case추가 ( 맨 마지막에 진열장내 보석이 한개인 종류가 위치했을 경우 조기 종료 조건 반영 ) 적용결과 : 효율성 테스트 12/15 Pass" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ Feat ] GemsProblem Sol03 조기종료 case추가 ( 맨 마지막에 진열장내 보석이 한개인 종류가 위치했을 경우 조기 종료 조건 반영 ) 적용결과 : 효율성 테스트 12/15 Pass" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -271,6 +526,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/maxformula/MaximizeFormulaSolution01.java</url>
           <line>117</line>
           <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2021/corona/SocialDistancingSolution02.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/gems/GemsSolution01.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/gems/GemsSolution02.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/gems/GemsSolution02.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/gems/GemsSolution02.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="89" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

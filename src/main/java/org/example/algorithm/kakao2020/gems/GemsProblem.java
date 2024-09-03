@@ -23,15 +23,15 @@ public class GemsProblem implements StudyLauncher {
                         "B","B","A","A","A",
                         "A","B","A","A","A",
                         "B","B","A","A","A",
-                        "A","B","A","A","A",
+                        "A","B","A","B","A",
                         "B","B","A","A","A",
                         "A","B","A","A","A",
                         "B","B","A","A","A",
                         "A","B","A","A","A",
-                        "B","B","A","A","B",
+                        "B","B","A","C","B",
                         "C"
                     },
-                    new int[] { 47,51 }
+                    new int[] { 47,49 }
                 ),
                 new Target(
                     new String[] { "DIA", "RUBY", "RUBY", "DIA", "DIA", "EMERALD", "SAPPHIRE", "DIA" },

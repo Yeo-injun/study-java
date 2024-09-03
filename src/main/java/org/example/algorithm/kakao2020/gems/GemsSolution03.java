@@ -64,6 +64,7 @@ public class GemsSolution03 implements Solver<int[], String[]> {
                 gem.addIdx( idx );
             } else {
                 Gem newGem = new Gem( gemName );
+
                 newGem.addIdx( idx );
                 idxMap.put( gemName, newGem );
             }

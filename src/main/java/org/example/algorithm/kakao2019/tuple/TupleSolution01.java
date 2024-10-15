@@ -4,7 +4,6 @@ import org.example.algorithm.Solver;
 
 import java.util.*;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 public class TupleSolution01 implements Solver<Integer[], String> {
 

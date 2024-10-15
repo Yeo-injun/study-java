@@ -3,7 +3,6 @@ package org.example.algorithm.kakao2020.gems;
 import org.example.algorithm.Solver;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class GemsSolution02 implements Solver<int[], String[]> {
 

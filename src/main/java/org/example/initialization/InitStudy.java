@@ -25,7 +25,7 @@ public class InitStudy implements StudyLauncher {
         /**
          * enum이 초기화 되는 시점
          * - enumType의 멤버에 최초 접근할때 초기화됨
-         * - enum의 경우 생성자가 먼저 호출
+         * - enumType 초기화시 생성자 메소드 - static block 순으로 호출됨.
          */
         System.out.println( "-----------------------------------" );
         System.out.println( "Lancher :: End!!" );

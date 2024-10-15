@@ -5,6 +5,7 @@ import org.example.algorithm.TestTarget;
 import org.example.algorithm.kakao2021.corona.SocialDistancingSolution02;
 import org.example.study.StudyLauncher;
 
+import java.util.List;
 import java.util.Arrays;
 
 public class AbusiveUserProblem implements StudyLauncher {

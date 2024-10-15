@@ -2,9 +2,6 @@ package org.example.algorithm.kakao2019.abusiveuser;
 
 import org.example.algorithm.Solver;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class AbusiveUserSolution01 implements Solver<Integer, String[][]> {
 
     @Override

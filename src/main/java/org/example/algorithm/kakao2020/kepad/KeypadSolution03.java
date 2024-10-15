@@ -2,8 +2,6 @@ package org.example.algorithm.kakao2020.kepad;
 
 import org.example.algorithm.Solver;
 
-import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 public class KeypadSolution03 implements Solver< String, Object[]> {

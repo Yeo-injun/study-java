@@ -2,10 +2,6 @@ package org.example.algorithm.kakao2021.strtonum;
 
 import org.example.algorithm.Solver;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-
 public class StringToNumberSolution02 implements Solver<Integer, String> {
     @Override
     public Integer solve( String inputs ) {

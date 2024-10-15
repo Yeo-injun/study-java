@@ -1,11 +1,11 @@
 package org.example.algorithm.kakao2021.corona;
 
-import org.example.algorithm.Solver;
+import org.example.algorithm.core.Solvable;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class SocialDistancingSolution01 implements Solver<int[], String[][]> {
+public class SocialDistancingSolution01 implements Solvable<String[][], int[]> {
 
     private String WALL = "X";
     private String EMPTY = "O";

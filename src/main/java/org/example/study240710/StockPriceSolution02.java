@@ -2,9 +2,6 @@ package org.example.study240710;
 
 import org.example.algorithm.Solver;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
 public class StockPriceSolution02 implements Solver< int[], int[] > {
     @Override
     public int[] solve( int[] prices ) {

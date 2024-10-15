@@ -4,16 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0b77286-7de8-47f5-8a5c-cb297b69f076" name="변경" comment="[ Feat ] GemsProblem Sol03 조기종료 case추가 ( 맨 마지막에 진열장내 보석이 한개인 종류가 위치했을 경우 조기 종료 조건 반영 ) 적용결과 : 효율성 테스트 12/15 Pass">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jackson/JacksonStudy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jackson/ResultMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jackson/mapping.json" afterDir="false" />
+    <list default="true" id="f0b77286-7de8-47f5-8a5c-cb297b69f076" name="변경" comment="[ Feat ] 클래스의 초기화 순서에 대한 공부&#10;&#10;- static 필드는 클래스 정보가 최초 메모리에 적재될때 할당된다.&#10;- static block은 static 메소드 혹은 생성자가 처음으로 호출될 때 1번만 실행된다.&#10;- InnerClass의 enum은 해당 Type을 최초에 참조할때 1번만 생성자 - static block 순서로 호출된다.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/core/AlgorithmTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/core/Problem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/core/Solvable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/core/Testable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/core/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2021/corona/Executor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2021/corona/SocialDistancingTestCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/gems/GemsProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/gems/GemsProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/algorithm/AlgorithmTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/AlgorithmTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/algorithm/Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/core/Solver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2019/abusiveuser/AbusiveUserProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2019/abusiveuser/AbusiveUserProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2019/abusiveuser/AbusiveUserSolution01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2019/abusiveuser/AbusiveUserSolution01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2019/dollclaw/DollClawMachineSolution01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2019/dollclaw/DollClawMachineSolution01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2019/tuple/TupleSolution01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2019/tuple/TupleSolution01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/gems/GemsSolution01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/gems/GemsSolution01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/gems/GemsSolution02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/gems/GemsSolution02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/gems/GemsSolution03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/gems/GemsSolution03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/study/StudyLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/study/StudyLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/kepad/KeypadSolution01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/kepad/KeypadSolution01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/kepad/KeypadSolution02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/kepad/KeypadSolution02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/kepad/KeypadSolution03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/kepad/KeypadSolution03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/maxformula/MaximizeFormulaSolution01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/maxformula/MaximizeFormulaSolution01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2021/corona/SocialDistancingProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2021/corona/SocialDistancingProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2021/corona/SocialDistancingSolution01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2021/corona/SocialDistancingSolution01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2021/corona/SocialDistancingSolution02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2021/corona/SocialDistancingSolution02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2021/strtonum/StringToNumberSolution01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2021/strtonum/StringToNumberSolution01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2021/strtonum/StringToNumberSolution02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2021/strtonum/StringToNumberSolution02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/initialization/InitStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/initialization/InitStudy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/study240710/AlgorithmStockPriceProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/study240710/AlgorithmStockPriceProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/study240710/StockPriceSolution01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/study240710/StockPriceSolution01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/study240710/StockPriceSolution02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/study240710/StockPriceSolution02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/study240714/MulipleSetProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/study240714/MulipleSetProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/study240714/MulipleSetSolution01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/study240714/MulipleSetSolution01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/study240714/MulipleSetSolution02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/study240714/MulipleSetSolution02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/study240714/MulipleSetSolution03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/study240714/MulipleSetSolution03.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,10 +89,9 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/dev/study-java/src/main/java/org/example/algorithm/kakao2020/gems&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -87,11 +111,11 @@
       <recent name="C:\dev\study-java\src\main\java\org\example\algorithm\kakao2020\" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.example.algorithm.kakao2020.gems" />
+      <recent name="org.example.algorithm.core" />
       <recent name="org.example.algorithm.kakao2021.corona" />
-      <recent name="org.example.algorithm.kakao2019" />
-      <recent name="org.example.algorithm.kakao2020.kepad" />
-      <recent name="org.example.algorithm.kakao2021.strtonum" />
+      <recent name="org.example.algorithm" />
+      <recent name="org.example.toss20241005" />
+      <recent name="org.example.algorithm.kakao2020.gems" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -102,13 +126,13 @@
       <command value="gradle run" />
     </option>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+  <component name="RunManager" selected="애플리케이션.AlgorithmExecutor">
+    <configuration name="AlgorithmExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.algorithm.kakao2021.corona.AlgorithmExecutor" />
       <module name="study-java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.algorithm.kakao2021.corona.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.AlgorithmExecutor" />
         <item itemvalue="Gradle.study-java [build]" />
         <item itemvalue="Gradle.study-java [clean]" />
         <item itemvalue="Gradle.study-java [run]" />
         <item itemvalue="Gradle.study-java [init]" />
-        <item itemvalue="애플리케이션.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -447,7 +471,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723742042872</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="[ Feat ] Jackson 이용하여 json타입 데이터 바인딩 처리 테스트완료">
+      <option name="closed" value="true" />
+      <created>1725375850474</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1725375850474</updated>
+    </task>
+    <task id="LOCAL-00030" summary="[ Feat ] 클래스의 초기화 순서에 대한 공부&#10;&#10;- static 필드는 클래스 정보가 최초 메모리에 적재될때 할당된다.&#10;- static block은 static 메소드 혹은 생성자가 처음으로 호출될 때 1번만 실행된다.&#10;- InnerClass의 enum은 해당 Type을 최초에 참조할때 1번만 생성자 - static block 순서로 호출된다.">
+      <option name="closed" value="true" />
+      <created>1725895801404</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1725895801405</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -462,8 +502,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[ Feat ] 일자별 구현사항 Launcher로 관리" />
-    <MESSAGE value="[ Feat ] 알고리즘 문제 풀이 구조화" />
     <MESSAGE value="[ Feat ] 카카오 기출문제 풀이 - 뉴스클러스터링" />
     <MESSAGE value="[ Feat ] 카카오 기출문제 풀이 - 뉴스클러스터링 ( 정답풀이 구현 완료 )" />
     <MESSAGE value="[ Feat ] 카카오 채용연계형 기출문제 풀이 - 숫자 문자열과 영단어( 정답풀이 구현 완료 )" />
@@ -487,7 +525,9 @@
     <MESSAGE value="[ Feat ] GemsProblem Sol03 추가 - 보석 진열장 순회시 유의미한 마지막 시작지점까지만 순회하도록 수정. 적용결과 효율성 테스트 11/15 Pass" />
     <MESSAGE value="[ Feat ] GemsProblem Sol03 추가 - 각 보석별 인덱스 업데이트 로직과 범위지정을 위한 최대/최소 인덱스 구하는 로직을 하나의 반복문으로 처리. 적용결과 효율성 테스트 12/15 Pass" />
     <MESSAGE value="[ Feat ] GemsProblem Sol03 조기종료 case추가 ( 맨 마지막에 진열장내 보석이 한개인 종류가 위치했을 경우 조기 종료 조건 반영 ) 적용결과 : 효율성 테스트 12/15 Pass" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ Feat ] GemsProblem Sol03 조기종료 case추가 ( 맨 마지막에 진열장내 보석이 한개인 종류가 위치했을 경우 조기 종료 조건 반영 ) 적용결과 : 효율성 테스트 12/15 Pass" />
+    <MESSAGE value="[ Feat ] Jackson 이용하여 json타입 데이터 바인딩 처리 테스트완료" />
+    <MESSAGE value="[ Feat ] 클래스의 초기화 순서에 대한 공부&#10;&#10;- static 필드는 클래스 정보가 최초 메모리에 적재될때 할당된다.&#10;- static block은 static 메소드 혹은 생성자가 처음으로 호출될 때 1번만 실행된다.&#10;- InnerClass의 enum은 해당 Type을 최초에 참조할때 1번만 생성자 - static block 순서로 호출된다." />
+    <option name="LAST_COMMIT_MESSAGE" value="[ Feat ] 클래스의 초기화 순서에 대한 공부&#10;&#10;- static 필드는 클래스 정보가 최초 메모리에 적재될때 할당된다.&#10;- static block은 static 메소드 혹은 생성자가 처음으로 호출될 때 1번만 실행된다.&#10;- InnerClass의 enum은 해당 Type을 최초에 참조할때 1번만 생성자 - static block 순서로 호출된다." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -509,17 +549,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/kepad/KeypadSolution03.java</url>
-          <line>86</line>
+          <line>84</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2019/tuple/TupleSolution01.java</url>
-          <line>57</line>
+          <line>56</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2019/tuple/TupleSolution01.java</url>
-          <line>80</line>
+          <line>79</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -528,29 +568,29 @@
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2021/corona/SocialDistancingSolution02.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/gems/GemsSolution01.java</url>
           <line>43</line>
           <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/gems/GemsSolution02.java</url>
-          <line>76</line>
+          <line>75</line>
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/gems/GemsSolution02.java</url>
-          <line>52</line>
+          <line>51</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/algorithm/kakao2020/gems/GemsSolution02.java</url>
-          <line>35</line>
+          <line>34</line>
           <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/jackson/JacksonStudy.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="90" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
